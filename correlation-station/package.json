@@ -1,0 +1,13 @@
+{
+  "name": "correlation-station",
+  "version": "1.0.0",
+  "private": true,
+  "description": "生产指标关联排查站：普通相关 vs 条件关联（精度矩阵），含收缩/graphical lasso、按批次留出 CV 与稳定性诊断",
+  "scripts": {
+    "test": "node tests/stats.test.js && node tests/dom-shim.test.js",
+    "test:stats": "node tests/stats.test.js",
+    "test:ui": "node tests/dom-shim.test.js",
+    "serve": "node tests/serve.js"
+  },
+  "engines": { "node": ">=18" }
+}
